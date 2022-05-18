@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class App extends Component{
   
   setLocalStorage() {
+    localStorage.removeItem("Paragon");
     localStorage.setItem("Arena", "Selection Month");
     
   }
